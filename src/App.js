@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
-import ToDo from './Pages/ToDo';
+import Home from './Pages/Home';
 
 
 // import './App.css';
@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path='' element={<ToDo/>}/>
+        <Route exact path='' element={<Home/>}/>
       
        
         

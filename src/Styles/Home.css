@@ -1,0 +1,53 @@
+#home {
+     background-color: red;
+     font-size: 50px;
+     color: white;
+     text-align: center;
+}
+
+body {
+     background-color: rgb(245, 247, 248);
+   }
+
+#h11 {
+     text-align: center;
+     margin-top: 10px;
+}
+
+a {
+     text-decoration: none;
+     color: rgb(10, 10, 9);
+     font-size: 22px;
+
+}
+
+ul {
+     color:rgba(98, 181, 230, 0.877);
+
+
+}
+
+
+   
+@media screen and (max-width: 600px) {
+     #big {
+          display: flex;
+          flex-direction: column;
+      width: 100%;
+     }
+
+     
+     #img1 {
+          
+      width: 170%;
+     }
+
+     #img11 {
+          
+          width: 520%;
+         }
+
+
+        
+   } 
+ 
